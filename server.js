@@ -31,8 +31,8 @@ function getJobResults(req, res) {
         // console.dir(jobResults);
         // console.dir(ip);
         // console.dir(req.hostname);
-         console.dir(url);
-        console.dir(searchterm);
+        // console.dir(url);
+        // console.dir(searchterm);
         res.send({ jobResults });
     });
 }
